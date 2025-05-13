@@ -13,15 +13,12 @@ A Streamlit-based web application that allows users to chat with Google's Gemini
 - 🔐 Secure API key management via `.env`
 - ⚡ Fast and responsive interface with Streamlit
 
-## 📁 Project Structure
-.
-├── app.py # Main application file
+## Project Structure 📁
 
-├── .env # Environment variable file (should be created by you)
-
-├── requirements.txt # Python dependencies
-
-└── README.md # Project documentation (this file)
+- app.py # Main application file
+- .env # Environment variable file (should be created by you)
+- requirements.txt # Python dependencies
+- README.md # Project documentation (this file)
 
 ## Prerequisites 🛠️
 
@@ -54,23 +51,8 @@ Follow these steps to get the project running on your local machine:
     env
     Google_API_key=your-api-key-here
 
-## Usage
+## Usage ✔️
 Run the Streamlit application:
 
     ```bash
     streamlit run app.py
-
-🙏 Acknowledgements
-Google Generative AI – Gemini Model
-
-Streamlit – Web app framework
-
-python-dotenv – Secure environment management
-
-📜 License
-This project is licensed under the MIT License.
-Feel free to modify and distribute with proper attribution.
-
-📬 Feedback & Contributions
-Got ideas or improvements?
-Fork this repo, submit a pull request, or open an issue — contributions are always welcome!
