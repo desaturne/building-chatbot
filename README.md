@@ -16,8 +16,11 @@ A Streamlit-based web application that allows users to chat with Google's Gemini
 ## 📁 Project Structure
 .
 ├── app.py # Main application file
+
 ├── .env # Environment variable file (should be created by you)
+
 ├── requirements.txt # Python dependencies
+
 └── README.md # Project documentation (this file)
 
 ## Prerequisites 🛠️
