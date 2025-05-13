@@ -1,15 +1,24 @@
-# building chatbot
-
 # Gemini-powered Chatbot 🤖💬
 
 A Streamlit-based web application that allows users to chat with Google's Gemini AI model (Gemini 1.5 Flash). This interactive chatbot maintains conversation history and provides intelligent responses to user queries.
 
+🟢 **Live Demo:** [Click here to try it out](https://building-chatbot-sus.streamlit.app/)  
+> ⚠️ *If you see an error after submitting a question, it might be because the API key usage limit has been reached.*
+
 ## Features ✨
 
-- **Conversational AI**: Powered by Google's Gemini 1.5 Flash model
-- **Chat Interface**: Clean, user-friendly interface with message history
-- **Session Management**: Maintains conversation history throughout the session
-- **Responsive Design**: Adapts to different screen sizes with Streamlit's layout options
+- 💬 Real-time AI chatbot interaction
+- ⚙️ Powered by Google's Gemini 1.5 Flash model
+- 🧠 Context-aware conversation using session memory
+- 🔐 Secure API key management via `.env`
+- ⚡ Fast and responsive interface with Streamlit
+
+## 📁 Project Structure
+.
+├── app.py # Main application file
+├── .env # Environment variable file (should be created by you)
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation (this file)
 
 ## Prerequisites 🛠️
 
@@ -20,6 +29,8 @@ Before running the application, ensure you have:
 - Basic understanding of Python and Streamlit
 
 ## Installation ⚙️
+
+Follow these steps to get the project running on your local machine:
 
 1. Clone this repository:
    ```bash
@@ -46,6 +57,17 @@ Run the Streamlit application:
     ```bash
     streamlit run app.py
 
-The application will automatically open in your default web browser
-Type your message in the chat input box and press Enter to get responses from the Gemini AI
-The conversation history will be maintained throughout your session
+🙏 Acknowledgements
+Google Generative AI – Gemini Model
+
+Streamlit – Web app framework
+
+python-dotenv – Secure environment management
+
+📜 License
+This project is licensed under the MIT License.
+Feel free to modify and distribute with proper attribution.
+
+📬 Feedback & Contributions
+Got ideas or improvements?
+Fork this repo, submit a pull request, or open an issue — contributions are always welcome!
