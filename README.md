@@ -34,7 +34,7 @@ Follow these steps to get the project running on your local machine:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/gemini-chatbot.git
+   git clone https://github.com/desaturne/building-chatbot.git
    cd gemini-chatbot
 
 2. Create and activate a virtual environment (recommended):
